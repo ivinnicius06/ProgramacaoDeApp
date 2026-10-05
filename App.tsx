@@ -30,7 +30,7 @@ function Dashboard() {
   const maisAtrasos = [...linhas].sort((a, b) => b.atrasos - a.atrasos).slice(0, 3);
 
   return <ScrollView style={styles.tela} contentContainerStyle={styles.conteudo}>
-    <Text style={styles.titulo}>Dashboard dos ônibus do DF</Text>
+    <Text style={styles.titulo}>Dashboard dos ônibus do Distrito Federal</Text>
     <Text style={styles.aviso}>Trajetos reais. Indicadores fictícios para a atividade.</Text>
     <Cartao>
       <Text style={styles.subtitulo}>Indicadores gerais</Text>
